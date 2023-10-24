@@ -1,3 +1,5 @@
-# Curriculm Vitae
+# Diego Emanuel Guevara Orduña
+## Profile
 
-Diego Emanuel Guevara Orduña
+Information Technology Engineer with experience in web development and deep knowledge in Python,
+HTML and JavaScript.
