@@ -54,7 +54,7 @@ const Portfolio = () => {
                             }
                         }}
                     />
-                    <button onClick={handleChange} className="mt-3 mr-4">
+                    <button onClick={handleSearch} className="mt-3 mr-4">
                         <FaSearch className="h-4 w-4 fill-current" />
                     </button>
                 </label>
