@@ -64,6 +64,19 @@ const Portfolio = () => {
                                                     {project.description}
                                                 </p>
                                             </div>
+                                            <div className="mt-4 flex flex-wrap items-center gap-5 max-w-fit">
+                                                {project.technologies.map((tech,techKey) => {
+                                                        return(
+                                                            <div key={techKey} className="flex items-center gap-1">
+                                                                {tech.icon}
+                                                                <p className="block font-sans text-xs font-normal text-gray-700 antialiased">
+                                                                    {tech.name}
+                                                                </p>
+                                                            </div>
+                                                        );
+                                                    })
+                                                }
+                                            </div>
                                             <div className="px-1 py-4">
                                                 <a href={project.href} className="text-blue-700 hover:underline">Read More</a>
                                             </div>
