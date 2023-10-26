@@ -4,9 +4,9 @@ import { BiLogoTailwindCss , BiLogoDjango, BiLogoPython } from "react-icons/bi";
 
 export const Projects = [
     {
-        name:"Proyecto 1",
+        name:"Blog Page",
         img: "/blog-app-project.png",
-        description:"Esta es una prueba de descripción de proyecto",
+        description:"Simple blog with two entries added dynamically including routes.",
         keywords:"react, nextjs, tailwind",
         technologies:[
             {
@@ -22,7 +22,7 @@ export const Projects = [
                 icon:<BiLogoTailwindCss className="h-3 w-3" />
             },
         ],
-        href:""
+        href:"https://nextjs-tutorial-ten-sigma.vercel.app/"
     },
     {
         name:"Proyecto 2",
