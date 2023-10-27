@@ -1,6 +1,7 @@
 import { FaReact, FaBootstrap } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoTailwindCss , BiLogoDjango, BiLogoPython } from "react-icons/bi";
+import { SiMysql } from "react-icons/si";
 
 export const Projects = [
     {
@@ -25,10 +26,10 @@ export const Projects = [
         href:"https://nextjs-tutorial-ten-sigma.vercel.app/"
     },
     {
-        name:"Proyecto 2",
-        img: "/placeholder.jpg",
-        description:"Esta es una prueba de descripción de proyecto 2",
-        keywords:"django, python, bootstrap",
+        name:"Django Web Map",
+        img: "/web-map.png",
+        description:"Map where you can add and name markers that are stored in a database.",
+        keywords:"django, python, bootstrap, mysql",
         technologies:[
             {
                 name:"Django",
@@ -42,7 +43,32 @@ export const Projects = [
                 name:"Bootstrap",
                 icon:<FaBootstrap className="h-3 w-3" />
             },
+            {
+                name:"MySQL",
+                icon:<SiMysql className="h-3 w-3" />
+            },
         ],
-        href:""
+        href:"https://github.com/DiegoGuevaraO/web-map"
+    },
+    {
+        name:"Curriculum Vitae",
+        img: "/cv.png",
+        description:"Of course there's also this project. You can search any technology on the portfolio page search bar to filter results. Dynamic NavBar using Next's App Router",
+        keywords:"react, nextjs, tailwind",
+        technologies:[
+            {
+                name:"React",
+                icon:<FaReact className="h-3 w-3" />
+            },
+            {
+                name:"Nextjs",
+                icon:<TbBrandNextjs className="h-3 w-3" />
+            },
+            {
+                name:"Tailwind",
+                icon:<BiLogoTailwindCss className="h-3 w-3" />
+            },
+        ],
+        href:"/"
     }
 ];

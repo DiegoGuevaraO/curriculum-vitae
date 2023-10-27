@@ -25,9 +25,13 @@ const Curriculum = () => {
                 <div className="flex flex-col px-10 md:px-20">
                     <h3 className="text-xl font-bold">Skills</h3>
                     <br />
-                    <span className="text-lg">Management</span>
-                    <span className="text-lg">Collaboration</span>
-                    <span className="text-lg">Communication</span>
+                    <span className="text-lg">Python</span>
+                    <span className="text-lg">Django</span>
+                    <span className="text-lg">Bootstrap</span>
+                    <span className="text-lg">Tailwind</span>
+                    <span className="text-lg">JavaScript</span>
+                    <span className="text-lg">React</span>
+                    <span className="text-lg">Next.js</span>
                 </div>
                 <div className="px-10 md:px-20">
                     <h3 className="text-xl font-bold">Summary</h3>
@@ -95,11 +99,7 @@ const Curriculum = () => {
                     <p>2018 - 2022</p>
                 </div>
                 <div className="flex flex-col col-span-4 ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet deleniti tempore veritatis
-                        adipisci accusantium voluptatibus vel aperiam ex alias officiis deserunt, ad, iste id cum minus sit
-                        laudantium ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi non incidunt
-                        voluptates molestiae delectus nulla quisquam aperiam voluptas tempora distinctio! Ipsa cupiditate
-                        harum voluptates praesentium. Suscipit itaque officiis odio ut!</p>
+                    <p></p>
                 </div>
             </div>
         </section>
