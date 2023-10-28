@@ -1,6 +1,6 @@
 import { FaReact, FaBootstrap } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { BiLogoTailwindCss , BiLogoDjango, BiLogoPython } from "react-icons/bi";
+import { BiLogoTailwindCss , BiLogoDjango, BiLogoPython, BiLogoPostgresql } from "react-icons/bi";
 import { SiMysql } from "react-icons/si";
 
 export const Projects = [
@@ -15,7 +15,7 @@ export const Projects = [
                 icon:<FaReact className="h-3 w-3" />
             },
             {
-                name:"Nextjs 13",
+                name:"Next.js 13",
                 icon:<TbBrandNextjs className="h-3 w-3" />
             },
             {
@@ -51,9 +51,9 @@ export const Projects = [
         href:"https://github.com/DiegoGuevaraO/web-map"
     },
     {
-        name:"Curriculum Vitae",
-        img: "/cv.png",
-        description:"Of course there's also this project. Dynamic NavBar using Next's App Router",
+        name:"Next.js 14 Dashboard",
+        img: "/dashboard.png",
+        description:"Dashboard, using new features added in Next.js 14. Still in development.",
         keywords:"react, nextjs, tailwind",
         technologies:[
             {
@@ -61,7 +61,32 @@ export const Projects = [
                 icon:<FaReact className="h-3 w-3" />
             },
             {
-                name:"Nextjs 13",
+                name:"Next.js 14",
+                icon:<TbBrandNextjs className="h-3 w-3" />
+            },
+            {
+                name:"Tailwind",
+                icon:<BiLogoTailwindCss className="h-3 w-3" />
+            },
+            {
+                name:"PostgreSQL",
+                icon:<BiLogoPostgresql className="h-3 w-3" />
+            },
+        ],
+        href:"https://nextjs-dashboard-xi-gilt.vercel.app/"
+    },
+    {
+        name:"Curriculum Vitae",
+        img: "/cv.png",
+        description:"Of course there's also this project. Dynamic NavBar using Next's App Router.",
+        keywords:"react, nextjs, tailwind",
+        technologies:[
+            {
+                name:"React",
+                icon:<FaReact className="h-3 w-3" />
+            },
+            {
+                name:"Next.js 13",
                 icon:<TbBrandNextjs className="h-3 w-3" />
             },
             {
