@@ -15,7 +15,7 @@ export const Projects = [
                 icon:<FaReact className="h-3 w-3" />
             },
             {
-                name:"Nextjs",
+                name:"Nextjs 13",
                 icon:<TbBrandNextjs className="h-3 w-3" />
             },
             {
@@ -53,7 +53,7 @@ export const Projects = [
     {
         name:"Curriculum Vitae",
         img: "/cv.png",
-        description:"Of course there's also this project. You can search any technology on the portfolio page search bar to filter results. Dynamic NavBar using Next's App Router",
+        description:"Of course there's also this project. Dynamic NavBar using Next's App Router",
         keywords:"react, nextjs, tailwind",
         technologies:[
             {
@@ -61,7 +61,7 @@ export const Projects = [
                 icon:<FaReact className="h-3 w-3" />
             },
             {
-                name:"Nextjs",
+                name:"Nextjs 13",
                 icon:<TbBrandNextjs className="h-3 w-3" />
             },
             {
